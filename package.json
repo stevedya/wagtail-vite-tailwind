@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "npx vite build --watch",
     "build": "vite build"
   },
   "keywords": [],
