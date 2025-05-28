@@ -1,13 +1,13 @@
 # Wagtail + Vite + Tailwind Starter (No HMR)
 
-This is a starter project for integrating **Wagtail**, **Vite**, and **Tailwind CSS** without using Hot Module Replacement (HMR).
+This is a starter project for integrating **Wagtail**, **Vite**, and **Tailwind CSS V4** without using Hot Module Replacement (HMR).
 
 ## Project Setup
 
 ### 1. Navigate to the project directory
 
 ```bash
-cd wagtail-vite-tailwind-starter
+cd wagtail_vite_tailwind
 ```
 
 ### 2. Create and activate a virtual environment
