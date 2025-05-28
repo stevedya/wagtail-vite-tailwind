@@ -1,7 +1,7 @@
 {% load static wagtailcore_tags wagtailuserbar %}
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full">
     <head>
         <meta charset="utf-8" />
         <title>
@@ -24,20 +24,20 @@
         {% endif %}
 
         {# Global stylesheets #}
-        <link href="{% static 'css/main.css' %}" type="text/css" rel="stylesheet">
+        <link href="{% static 'css/main.min.css' %}" type="text/css" rel="stylesheet">
 
         {% block extra_css %}
         {# Override this in templates to add extra stylesheets #}
         {% endblock %}
     </head>
 
-    <body class="{% block body_class %}{% endblock %}">
+    <body class="h-full {% block body_class %}{% endblock %}">
         {% wagtailuserbar %}
 
         {% block content %}{% endblock %}
 
         {# Global javascript #}
-        <script type="text/javascript" src="{% static 'js/wagtail_vite_tailwind.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/main.min.js' %}"></script>
 
         {% block extra_js %}
         {# Override this in templates to add extra javascript #}
